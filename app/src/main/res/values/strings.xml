@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ANew Weather App</string>
+    <string name="choose_colour">Choose color</string>
+    <string name="choose_effect">Color description</string>
+    <string name="main_button">Result</string>
+    <string name="list_of_cities">List of cities</string>
+    <string name="choose_weather">Weather</string>
+    <string name="red">red</string>
+    <string name="orange">orange</string>
+    <string name="yellow">yellow</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+    <string name="dark_blue">dark-blue</string>
+    <string name="red_effect">English words abbot effect of colors</string>
+    <string name="orange_effect">English words abbot effect of colors</string>
+    <string name="yellow_effect">English words abbot effect of colors</string>
+    <string name="green_effect">English words abbot effect of colorsEnglish words abbot effect of colors</string>
+    <string name="dark_blue_effect">English words abbot effect of colors</string>
+    <string name="blue_effect">English words abbot effect of colors</string>
+    <string name="red_blue_effect">English words abbot effect of colors</string>
+    <string name="weather_strings">Weather list</string>
+
+    <string-array name="colour_selection">
+        <item>красный</item>
+        <item>синий</item>
+        <item>желтый</item>
+        <item>зеленый</item>
+        <item>розовый</item>
+        <item>белый</item>
+    </string-array>
+    <string-array name="cities_array">
+        <item>Moscow</item>
+        <item>Leningrad</item>
+        <item>NizhniyNovgorod</item>
+        <item>Volgograd</item>
+        <item>Khabarovsk</item>
+        <item>Krasnodar</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ANew Weather App</string>
+    <string name="choose_colour">Выберите цвет:</string>
+    <string name="choose_effect">Описание цвета</string>
+    <string name="main_button">Результат</string>
+    <string name="list_of_cities">Перечень городов</string>
+    <string name="choose_weather">Узнать погоду</string>
+    <string name="red">красный</string>
+    <string name="orange">оранжевый</string>
+    <string name="yellow">желтый</string>
+    <string name="green">зеленый</string>
+    <string name="blue">голубой</string>
+    <string name="dark_blue">синий</string>
+    <string name="red_effect">Возбуждающий, согревающий, активный, энергичный, проникающий, тепловой, активизирует все функции организма; используется для лечения ветряной оспы, скарлатины, кори и некоторых кожных заболеваний; на короткое время увеличивает мускульное напряжение, повышает кровяное давление, ускоряет ритм дыхания</string>
+    <string name="orange_effect">Тонизирующий; действует в том же направлении, что и красный, но слабее; ускоряет пульсацию крови, улучшает пищеварение</string>
+    <string name="yellow_effect">Тонизирующий, физиологически оптимальный, наименее утомляющий; стимулирует зрение и нервную деятельность</string>
+    <string name="green_effect">Физиологически оптимальный; уменьшает кровяное давление и расширяет капилляры; успокаивает и облегчает невралгии и мигрени; на продолжительное время повышает двигательно-мускульную работоспособность</string>
+    <string name="dark_blue_effect">Успокаивающий; снижает мускульное напряжение и кровяное давление, успокаивает пульс и замедляет ритм дыхания</string>
+    <string name="blue_effect">Успокаивающее действие переходит в угнетающее; способствует затормаживанию функций физиологических систем человека</string>
+    <string name="red_blue_effect">Соединяет эффект красного и синего цветов; производит угнетающее действие на нервную систему</string>
+
+    <string-array name="colour_selection">
+        <item>красный</item>
+        <item>синий</item>
+        <item>желтый</item>
+        <item>зеленый</item>
+        <item>розовый</item>
+        <item>белый</item>
+    </string-array>
+    <string-array name="cities_array">
+
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Нижний Новогород</item>
+        <item>Волгоград</item>
+        <item>Хабаровск</item>
+        <item>Краснодар</item>
+    </string-array>
+    <string name="weather_strings">Список погоды</string>
+
+
+</resources>
