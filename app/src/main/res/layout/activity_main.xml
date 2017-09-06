@@ -10,81 +10,29 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="@android:color/background_light"
-            android:text="@string/choose_colour"
-            android:textColorLink="@android:color/black"></TextView>
+        android:orientation="vertical">
 
 
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinner_of_cities"
             android:layout_width="match_parent"
+            android:gravity="center"
             android:layout_height="wrap_content"
-            android:background="@android:color/background_light"
-            android:entries="@array/colour_selection">
+            android:entries="@array/cities_array"></Spinner>
 
-
-        </Spinner>
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/main_button" />
-
-    <TextView
-        android:id="@+id/effect"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/background_light"
-        android:text="@string/choose_effect"
-        android:textColorLink="@android:color/black"></TextView>
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_marginTop="10dp"
-        android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/choose_weather"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/choose_weather" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/list_of_cities"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:background="@android:color/background_light"
-                android:text="@string/list_of_cities"
-                android:textColorLink="@android:color/black"></TextView>
-
-            <Spinner
-                android:id="@+id/spinner_of_cities"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
-                android:entries="@array/cities_array"></Spinner>
-        </LinearLayout>
-
     </LinearLayout>
+    <TextView
+        android:id="@+id/weather_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/weather_field"/>
 
 
 </LinearLayout>
